@@ -1,0 +1,97 @@
+::ng-deep .mat-card {
+  display: grid !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+}
+/*
+::ng-deep .mat-accordion {
+  margin-bottom: 0 !important;
+  padding: 1% 10% !important;
+  padding-bottom: 0 !important;
+}
+::ng-deep .mat-content {
+  display: block !important;
+}
+
+::ng-deep .mat-expansion-panel {
+  margin: 1% !important;
+}
+
+::ng-deep .mat-expansion-panel-header {
+  min-height: 120px !important;
+}
+
+
+.employee {
+  padding: 5px 25px 10px 25px;
+}
+
+.employee-description {
+  width: 100%;
+  align-items: center;
+  display: flex;
+}
+.get-reports-button-container {
+  display: flex;
+  margin: auto;
+  width: 50%;
+  flex-flow: row-reverse;
+}
+
+.get-reports-button {
+  color: white;
+  background: #051e34;
+  padding: 14px 35px;
+  border: none;
+  border-radius: 2px;
+  font-weight: 600;
+  font-size: 12px;
+  cursor: pointer;
+  outline: none;
+} */
+
+p {
+  border: 2px solid black;
+  padding: .5em;
+}
+.block {
+  border: 2px solid black;
+  padding: .5em;
+}
+.block {
+  display: block;
+}
+hr {
+  border-color: #051e34;
+  width: 100%;
+  margin-top: 1%;
+}
+.report {
+  display: flex;
+  align-items: center;
+}
+.report-details {
+  width: 50%;
+}
+.get-reports-button-container {
+  display: flex;
+  margin: auto;
+  flex-flow: row;
+}
+
+dd,
+dl {
+  margin: 0;
+  padding: 8px;
+}
+
+dl:nth-child(even) {
+  background-color: #e5e5e5;
+  margin: 0;
+  padding: 8px;
+}
+dl:nth-child(odd) {
+  background-color: lightgreen;
+  margin: 0;
+  padding: 8px;
+}

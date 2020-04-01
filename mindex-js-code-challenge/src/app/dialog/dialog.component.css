@@ -1,0 +1,15 @@
+.action-container {
+    padding: 25px;
+    box-shadow: 0 1px 7px -3px black;
+  }
+.action-container .mat-form-field {
+    display: block !important;
+  }
+  .confirmation-box {
+    padding: 25px;
+    box-shadow: 0 1px 7px -3px black;
+  }
+  .mat-dialog-content {
+    font-size: small;
+    font-family: sans-serif;
+  }

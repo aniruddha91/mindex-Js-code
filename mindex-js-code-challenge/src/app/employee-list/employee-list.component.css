@@ -1,0 +1,15 @@
+::ng-deep .mat-grid-list {
+    display: initial !important;
+    padding: 0 !important;
+  }
+  
+  ::ng-deep .mat-grid-tile {
+    display: inline !important;
+    position: static !important;
+  }
+  
+  ::ng-deep .mat-figure {
+    display: inline !important;
+    position: initial !important;
+  }
+  

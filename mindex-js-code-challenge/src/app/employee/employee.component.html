@@ -1,0 +1,29 @@
+<mat-card>
+  <span class="block">
+    <h3>{{ employee.firstName }} {{ employee.lastName }}</h3>
+    Job Title: {{employee.position}}
+    <br />
+    Employee ID: {{ employee.id }}
+    <br/>
+    Direct Reports: {{totalReports}}  
+    <br/>
+    <hr/>
+    <dl *ngIf="employee.reports && employee.reports.length !== 0">
+        <dt>Reports:</dt>  
+    </dl>
+    <dl *ngFor="let rep of employee.reports">
+      <dd>
+        <div class="report">
+          <div class="report-details">
+            {{ rep["firstName"] }} {{ rep["lastName"] }},
+            {{ rep["position"] }}
+          </div>
+          <div class="get-reports-button-container">
+            <button (click)="openDialogBox(employee, rep, 'delete')" >delete</button>&nbsp;&nbsp;
+            <button (click)="openDialogBox(rep,rep,'edit')">edit</button>
+          </div>
+        </div>
+      </dd>
+    </dl>
+  </span>
+</mat-card>
