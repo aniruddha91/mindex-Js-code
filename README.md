@@ -1,6 +1,11 @@
 # mindex-Js-code
 Code challenge mindex
 
+1. clone repository 
+2. run npm install
+3. npm start to run application
+4. npm test for running test cases
+
 List of tasks completed:
 
 ### Task 1
